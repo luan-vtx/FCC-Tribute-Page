@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(168, 174, 255);
+  background-color: rgb(255, 255, 255);
   font-family: 'IBM Plex Serif', serif;
 }
 
@@ -29,8 +29,14 @@ body {
   margin-bottom: 16px;
 }
 
+#content {
+  padding: 6vh 8vh;
+  background-color: rgb(168, 174, 255);
+}
+
 #img-div {
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 4px black;
   margin: 0 auto;
   padding: 10vh 10vw;
   margin-bottom: 8px;
@@ -43,7 +49,7 @@ body {
 }
 
 #img-div p {
-  text-align: start;
+  text-align: end;
 }
 
 .list-container {
